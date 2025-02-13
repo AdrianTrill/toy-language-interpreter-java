@@ -2,98 +2,65 @@
 
 ![Java](https://img.shields.io/badge/Java-11%2B-orange) ![License](https://img.shields.io/badge/License-MIT-purple) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-🚀 **Welcome to the Toy Language Interpreter!** This project is a feature-rich Java-based interpreter for a toy programming language, designed to provide a strong foundation in language interpretation. It supports core programming constructs such as expressions, conditionals, loops, multithreading, and a GUI debugger for real-time execution insights.
+## Overview
 
----
+The **Toy Language Interpreter** is a Java-based project that provides a hands-on approach to understanding language interpretation and execution. It features a graphical debugger, multithreading capabilities, dynamic memory management, and fundamental programming constructs. This project is ideal for students and developers looking to gain deeper insights into how interpreters work.
 
-## 🛠️ Features
+## Features
 
-✅ **GUI Debugger** – Step through code execution and inspect variables using a user-friendly interface.
+- 🖥️ **GUI Debugger** – Step through code execution with variable inspection.
+- 🛠️ **Comprehensive Data Type Support** – Includes integers, floats, booleans, strings, and references.
+- ➗ **Expression Evaluation** – Supports arithmetic, logical, and relational expressions.
+- 📝 **Print Statements** – Output values and messages within the interpreter.
+- 🔄 **Control Structures** – Implements if-else conditionals and loop constructs (while, for).
+- 🔧 **Dynamic Memory Management** – Allocates and deallocates memory efficiently.
+- 🗑️ **Automatic Garbage Collection** – Frees memory from unused variables seamlessly.
+- ⚡ **Multithreading** – Supports concurrent execution with synchronization mechanisms.
+- 🔒 **Synchronization Mechanism** – Ensures thread safety using synchronized operations.
+- ✅ **Type Checking System** – Detects type errors before execution to prevent runtime failures.
 
-✅ **Comprehensive Data Types** – Supports integers, floats, booleans, strings, and references.
+## Future Enhancements
 
-✅ **Powerful Expressions** – Evaluate arithmetic, logical, and relational expressions with precision.
+🚀 **Planned Features:**
 
-✅ **Print Statements** – Output values and messages directly within the interpreter.
+- 📜 **Structured Parsing** – Introducing a more advanced parser for better syntax handling.
+- 🏗️ **Expanded Language Support** – Adding functions, arrays, and OOP concepts.
+- ⏩ **Performance Optimization** – Improving execution efficiency and memory usage.
+- 🔍 **Enhanced Debugging Tools** – More insightful runtime analysis and tracking.
+- 🛡️ **Error Handling Improvements** – Adding structured exception handling mechanisms.
+- 📂 **File I/O Support** – Enabling reading from and writing to files.
 
-✅ **Conditional Logic** – Implement robust decision-making with if-else constructs.
+## Getting Started
 
-✅ **Looping Constructs** – Utilize while and for loops to enable iterative operations.
-
-✅ **Dynamic Memory Management** – Efficiently allocate and manage memory for variables at runtime.
-
-✅ **Automatic Garbage Collection** – Reclaim memory for unused variables seamlessly.
-
-✅ **Multithreading Support** – Execute multiple threads concurrently for parallel processing.
-
-✅ **Synchronization Mechanism** – Ensure thread safety using synchronized operations.
-
-✅ **Type Checking System** – Prevent type errors before execution for a robust development experience.
-
-
----
-
-## 🚀 Future Enhancements
-
-🔹 **Advanced Parsing Engine** – Implement a structured parser to improve code organization and execution.
-
-🔹 **Expanded Language Features** – Extend support for functions, arrays, and object-oriented constructs.
-
-🔹 **Optimized Performance** – Enhance execution speed and memory efficiency.
-
-🔹 **Enhanced Debugging Tools** – Provide deeper insights into program execution and variable tracking.
-
----
-
-## 📦 Getting Started
-
-To set up and run the interpreter in **IntelliJ IDEA**:
-
-### 1️⃣ Clone the Repository  
-Open a terminal and run:  
+### 1️⃣ Clone the Repository
 ```bash
- git clone https://github.com/Chris91ss/toy-lang-interpreter-java.git
+git clone https://github.com/Chris91ss/toy-lang-interpreter-java.git
 ```
-Or, in **IntelliJ IDEA**:  
-- Open IntelliJ IDEA → **Get from VCS** → Paste the repository URL → Clone.
 
-### 2️⃣ Open the Project in IntelliJ IDEA  
-- Open IntelliJ and select **Open**.  
-- Navigate to the cloned repository folder and open it.  
-- IntelliJ should automatically detect it as a **Java project**.
+### 2️⃣ Open in IntelliJ IDEA
+- Open IntelliJ IDEA.
+- Navigate to **File > Open** and select the cloned repository.
+- Ensure Java 11+ is set up in **Project Structure**.
 
-### 3️⃣ Set Up the Project  
-- Ensure **Java SDK 11+** is installed and configured in **Project Structure** (Ctrl + Alt + Shift + S).  
-- If using Gradle or Maven, import dependencies when prompted.  
+### 3️⃣ Running the Interpreter
 
-### 4️⃣ Run the CLI or GUI Interpreter  
-#### **Command-Line Interface (CLI)**  
-To run the CLI version, execute:  
+#### Command-Line Interface (CLI)
 ```bash
 javac src/main/java/view/cli/CliInterpreter.java && java src/main/java/view/cli/CliInterpreter
 ```
-Or, in IntelliJ:
-- Navigate to `src/main/java/view/cli/CliInterpreter.java`.
-- Right-click and select **Run 'CliInterpreter'**.
 
-#### **Graphical User Interface (GUI)**  
-To run the GUI version, execute:  
+#### Graphical User Interface (GUI)
 ```bash
 javac src/main/java/view/gui/toylanguageinterpreter/GuiInterpreter.java && java src/main/java/view/gui/toylanguageinterpreter/GuiInterpreter
 ```
-Or, in IntelliJ:
-- Navigate to `src/main/java/view/gui/toylanguageinterpreter/GuiInterpreter.java`.
-- Right-click and select **Run 'GuiInterpreter'**.
 
-### 5️⃣ Experiment with the Interpreter  
-- Write test programs inside `.toy` files and execute them.  
+### 4️⃣ Experiment with the Interpreter
+- Write and execute `.toy` scripts.
 - Use the **GUI Debugger** to step through execution.
 
----
+## License
 
-## 📜 License
+This project is released under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute the code under the terms specified in the [LICENSE](LICENSE) file.
-
-🚀 **Stay tuned for further updates as we continue evolving this interpreter!** Happy coding! 🎯
+🚀 **Happy coding and experimenting!** 🎯
 
